@@ -136,7 +136,7 @@ namespace KMR_ZOK
                 lambda = Gradient();
                 //}
             } while (Norma(FijDifferenc) < eps);
-
+            countinueShootingMethod = false;
         }
         double t;
         public List<List<double>> MethodEilera(List<List<double>> lists)
